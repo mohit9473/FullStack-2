@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@700&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>CANVAS</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .navbar{
+            margin-top: 10px;
+            width: 100%;
+            background-color: white;
+            font-size: 15px;
+            font-family: sans-serif;
+            border-bottom: 0.1px  grey;
+            display: flex;
+            font-weight: bold;
+        }
+        .logo
+        {
+            float: left;
+        }
+        .menu{
+            text-align: center;
+            padding-left: 400px;
+        }
+        .smenu{
+            float: right;
+            padding-left: 300px;
+        }
+        .navbar ul li {
+            display: inline;
+            padding: 6px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+
+        .slider {
+            padding: 0px;
+            background-color: black;
+            background-image: url(./image/bk.jpg);
+            background-size: cover;
+
+        }
+
+        .content {
+            font-size: 100px;
+            font-family: 'Roboto', sans-serif;
+            padding: 0px 200px;
+            color: white;
+            text-align: center;
+            margin-bottom: 54px;
+        }
+
+
+        .card {
+            display: flex;
+            justify-content: center;
+        }
+
+
+        .card-text {
+            text-align: left;
+            color: black;
+            width: 30%;
+            font-size: 30px;
+            background-color: #fff;
+            margin: 0px 20px;
+            padding: 25px 50px;
+            border-radius: 10px;
+        }
+
+        .active{
+            color: #fff;
+            background-image: linear-gradient(#ff5a3e,#fe385b);
+        }
+
+        .card-logo {
+            font-size: 30px;
+            margin-bottom: 15px;
+        }
+
+        .card-title {
+            font-family: 'Rubik', sans-serif;
+            font-size: 20px;
+            margin-bottom: 15px;
+        }
+
+        .card-desc {
+            font-family: 'Noto Sans', sans-serif;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+       
+        <div class="logo">
+        <a href="#"><img src="./image/logo.png" height="50px" alt="logo"></a>
+        </div>
+        <div class="menu">
+            <ul>
+        <a href="#"><li style="color:palevioletred; text-decoration:underline">HOME</li></a>
+        <a href="#"><li>PAGES</li></a>
+        <a href="#"><li>PORTFOLIOS</li></a>
+        <a href="#"><li>HEADERS</li></a>
+        <a href="#"><li>ELEMENTS</li></a>
+        <a href="#"><li>BLOG</li></a>       
+            </ul>
+            </div>
+            <div class="smenu">
+             <ul>
+            <li><a href="#" class="fa fa-search"></a></li>
+            <li><a href="#" class="fa fa-shopping-cart"></a></li>
+            <li><a href="#" class="fa fa-bars"></a></li>
+            </ul>
+            </div>
+             <br> 
+     </div>
+
+    <div class="slider">
+        <div class="content">
+            Do not be afraid give <br> the jump with Koral
+        </div>
+        <div class="card">
+            <div class="card-text active">
+                <div class="card-logo"><i class="card-text-logo fa fa-check"></i></div>
+                <div class="card-title">GRAPHIC DESIGN</div>
+                <div class="card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsa,
+                    delectus iste reiciendis magni consectetur ratione excepturi architecto, expedita nulla sint sit sed
+                    optio, quas reprehenderit accusamus minus quo tenetur.</div>
+            </div>
+            <div class="card-text">
+                <div class="card-logo"><i class="card-text-logo fa fa-refresh"></i></div>
+                <div class="card-title">CREATIVE STYLES</div>
+                <div class="card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsa,
+                    delectus iste reiciendis magni consectetur ratione excepturi architecto, expedita nulla sint sit sed
+                    optio, quas reprehenderit accusamus minus quo tenetur.</div>
+            </div>
+            <div class="card-text">
+                <div class="card-logo"><i class="card-text-logo fa fa-book"></i></div>
+                <div class="card-title">DOCUMENTATION INCLUDED</div>
+                <div class="card-desc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ipsa,
+                    delectus iste reiciendis magni consectetur ratione excepturi architecto, expedita nulla sint sit sed
+                    optio, quas reprehenderit accusamus minus quo tenetur.</div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+</body>
+
+</html>
